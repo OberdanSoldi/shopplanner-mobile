@@ -1,13 +1,10 @@
-import { View } from 'react-native';
-import { StatusBar } from 'expo-status-bar';
-
-import { ShopList } from './components/ShopList';
+import { Layout } from '~/src/components/Layout';
+import { ShopList } from '~/src/components/ShopList';
 
 export default function App() {
 	return (
-		<View>
+		<Layout>
 			<ShopList />
-			<StatusBar style="light" />
-		</View>
+		</Layout>
 	);
 }
