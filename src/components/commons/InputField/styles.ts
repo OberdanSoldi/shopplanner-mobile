@@ -1,7 +1,5 @@
 import styled from 'styled-components/native';
 
-export const InputFieldContainer = styled.View``;
-
 export const Input = styled.TextInput`
 	height: 40px;
 	color: white;
